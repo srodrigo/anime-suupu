@@ -1,6 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
+import App from './App';
 
-const App = () => (<div>Hello</div>);
+const root = document.createElement('div');
+document.body.appendChild(root);
 
-render(<App />, document.getElementById('root'));
+render(<App />, root);

@@ -1,16 +1,16 @@
-const path = require('path');
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require("path");
+const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src', 'index.js'),
+  entry: path.resolve(__dirname, "src", "index.js"),
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js',
+    path: path.join(__dirname, "dist"),
+    filename: "bundle.js",
   },
   resolve: {
     alias: {
-      'react-dom': '@hot-loader/react-dom',
+      "react-dom": "@hot-loader/react-dom",
     },
   },
   module: {
@@ -18,7 +18,7 @@ module.exports = {
       {
         exclude: /node_modules|packages/,
         test: /\.js$/,
-        use: 'babel-loader',
+        use: "babel-loader",
       },
     ],
   },

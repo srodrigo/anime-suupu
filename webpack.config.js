@@ -1,24 +1,31 @@
-const path = require("path");
-const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "path";
+import webpack from "webpack";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
 module.exports = {
-  entry: path.resolve(__dirname, "src", "index.js"),
+  entry: path.resolve(__dirname, "src", "index.tsx"),
   output: {
     path: path.join(__dirname, "dist"),
     filename: "bundle.js",
   },
+  devtool: "inline-source-map",
   resolve: {
     alias: {
       "react-dom": "@hot-loader/react-dom",
     },
+    extensions: [".tsx", ".ts", ".js"],
   },
   module: {
     rules: [
       {
-        exclude: /node_modules|packages/,
         test: /\.js$/,
         use: "babel-loader",
+        exclude: /node_modules|packages/,
+      },
+      {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
       },
     ],
   },

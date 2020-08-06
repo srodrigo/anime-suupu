@@ -6,6 +6,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --mode production",
     "dev:local": "NODE_ENV=development webpack-dev-server --hot --port 8010",
+    "lint": "eslint 'src/**/*' -c .eslintrc --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "husky": {
@@ -14,8 +15,8 @@
     }
   },
   "lint-staged": {
-    "**/*": [
-      "eslint --fix",
+    "src/**/*": [
+      "eslint -c .eslintrc --fix",
       "prettier --write"
     ]
   },
@@ -28,20 +29,32 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@hot-loader/react-dom": "^16.13.0",
+    "@types/react": "^16.9.44",
+    "@types/react-hot-loader": "^4.1.1",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^9.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^30.2.1",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prefer-arrow": "^1.2.2",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-unicorn": "^21.0.0",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
+    "ts-loader": "^8.0.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"

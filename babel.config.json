@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["@babel/env", { "targets": "> 0.25%" }],
+    "@babel/preset-react",
+    ["@babel/preset-typescript", { "allExtensions": true, "isTSX": true }]
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/proposal-object-rest-spread"
+  ]
+}

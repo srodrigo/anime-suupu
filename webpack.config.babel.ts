@@ -1,9 +1,12 @@
+import { merge } from "webpack-merge";
 import path from "path";
-import webpack from "webpack";
+import webpack, { Configuration } from "webpack";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 
-module.exports = {
+const commonPlugins = [new HtmlWebpackPlugin(), new webpack.NamedModulesPlugin()];
+
+const commonConfig: Configuration = {
   entry: path.resolve(__dirname, "src", "index.tsx"),
   output: {
     path: path.join(__dirname, "dist"),
@@ -11,9 +14,6 @@ module.exports = {
   },
   devtool: "inline-source-map",
   resolve: {
-    alias: {
-      "react-dom": "@hot-loader/react-dom",
-    },
     extensions: [".tsx", ".ts", "jsx", ".js"],
   },
   module: {
@@ -25,6 +25,30 @@ module.exports = {
       },
     ],
   },
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-  plugins: [new HtmlWebpackPlugin(), new webpack.NamedModulesPlugin(), new BundleAnalyzerPlugin()],
+  plugins: commonPlugins,
+};
+
+const productionConfig: Configuration = {
+  mode: "production",
+};
+
+const developmentConfig: Configuration = {
+  mode: "development",
+  resolve: {
+    alias: {
+      "react-dom": "@hot-loader/react-dom",
+    },
+  },
+  plugins: commonPlugins.concat(new BundleAnalyzerPlugin()),
+};
+
+module.exports = (environment: string) => {
+  switch (environment) {
+    case "development":
+      return merge(commonConfig, developmentConfig);
+    case "production":
+      return merge(commonConfig, productionConfig);
+    default:
+      throw new Error("No matching configuration was found!");
+  }
 };

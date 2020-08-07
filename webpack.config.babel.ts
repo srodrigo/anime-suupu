@@ -12,7 +12,6 @@ const commonConfig: Configuration = {
     path: path.join(__dirname, "dist"),
     filename: "bundle.js",
   },
-  devtool: "inline-source-map",
   resolve: {
     extensions: [".tsx", ".ts", "jsx", ".js"],
   },
@@ -30,10 +29,16 @@ const commonConfig: Configuration = {
 
 const productionConfig: Configuration = {
   mode: "production",
+  devtool: "source-map",
+  externals: {
+    react: "react",
+    "react-dom": "react-dom",
+  },
 };
 
 const developmentConfig: Configuration = {
   mode: "development",
+  devtool: "inline-source-map",
   resolve: {
     alias: {
       "react-dom": "@hot-loader/react-dom",

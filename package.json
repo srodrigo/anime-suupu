@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack --config webpack.config.babel.ts --env production",
+    "build": "npm run lint && npm run test && NODE_ENV=production webpack --config webpack.config.babel.ts --env production",
     "dev:local": "NODE_ENV=development webpack-dev-server --env development --hot --port 8010",
-    "lint": "eslint 'src/**/*' -c .eslintrc --fix",
+    "lint": "eslint 'src/**/*' -c .eslintrc --fix && prettier --write 'src/**/*'",
     "test": "jest",
     "test:watch": "jest --watch",
     "stats:prod": "webpack --config webpack.config.babel.ts --env production --progress --profile --json > prod.stats.json",

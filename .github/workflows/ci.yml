@@ -19,4 +19,4 @@ jobs:
           APP_NAME: ${{ secrets.HEROKU_ANIME_SUUPU_PROD_APP_NAME }}
           GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
           GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
-        run: ./deploy.sh
+        run: chmod +x deploy.sh && ./deploy.sh

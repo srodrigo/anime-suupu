@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server --env development --hot --port 8010",
+    "start": "NODE_ENV=development webpack-dev-server --env development --hot --host 0.0.0.0 --port 8010",
     "start:ci": "NODE_ENV=ci webpack-dev-server --env ci --port 8011",
     "build": "NODE_ENV=production webpack --config webpack.config.babel.ts --env production",
     "lint": "eslint 'src/**/*' -c .eslintrc --fix && prettier --write 'src/**/*'",

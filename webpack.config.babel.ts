@@ -1,10 +1,9 @@
 import { merge } from "webpack-merge";
 import path from "path";
-import webpack, { Configuration } from "webpack";
-import HtmlWebpackPlugin from "html-webpack-plugin";
+import { Configuration } from "webpack";
+import { CleanWebpackPlugin } from "clean-webpack-plugin";
+import CopyWebpackPlugin from "copy-webpack-plugin";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
-
-const commonPlugins = [new HtmlWebpackPlugin(), new webpack.NamedModulesPlugin()];
 
 const commonConfig: Configuration = {
   entry: path.resolve(__dirname, "src", "index.tsx"),
@@ -24,7 +23,6 @@ const commonConfig: Configuration = {
       },
     ],
   },
-  plugins: commonPlugins,
 };
 
 const productionConfig: Configuration = {
@@ -34,6 +32,16 @@ const productionConfig: Configuration = {
     react: "react",
     "react-dom": "react-dom",
   },
+  plugins: [
+    new CleanWebpackPlugin(),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, "src", "index.html"),
+        },
+      ],
+    }),
+  ],
 };
 
 const developmentConfig: Configuration = {
@@ -44,7 +52,7 @@ const developmentConfig: Configuration = {
       "react-dom": "@hot-loader/react-dom",
     },
   },
-  plugins: commonPlugins.concat(new BundleAnalyzerPlugin()),
+  plugins: [new BundleAnalyzerPlugin()],
 };
 
 module.exports = (environment: string) => {

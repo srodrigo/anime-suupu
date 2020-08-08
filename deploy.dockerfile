@@ -29,7 +29,7 @@ CMD git config --global user.email "$GIT_USER_EMAIL" && \
   cp /usr/src/app/dist/* ./dist && \
   cp /usr/src/app/static.json . && \
   git add static.json dist && \
-  git commit -m "Releasing" && \
+  git diff-index --quiet HEAD || git commit -m "Releasing" && \
   heroku buildpacks:clear && \
   heroku buildpacks:set https://github.com/heroku/heroku-buildpack-static.git && \
   heroku git:remote -a $APP_NAME && \

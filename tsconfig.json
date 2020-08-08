@@ -12,6 +12,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react"
-  }
+    "noEmit": true,
+    "jsx": "react",
+    "types": ["jest"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "*.js", "src/**/*.js"]
 }

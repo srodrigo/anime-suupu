@@ -56,8 +56,15 @@ const developmentConfig: Configuration = {
   plugins: [new HtmlWebpackPlugin(), new BundleAnalyzerPlugin()],
 };
 
+const ciConfig: Configuration = {
+  mode: "development",
+  plugins: [new HtmlWebpackPlugin()],
+};
+
 module.exports = (environment: string) => {
   switch (environment) {
+    case "ci":
+      return merge(commonConfig, ciConfig);
     case "development":
       return merge(commonConfig, developmentConfig);
     case "production":

@@ -13,6 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Run linters and tests
+        run: chmod +x test.sh && ./test.sh
+
       - name: Deploy to Production environment
         env:
           HEROKU_TOKEN: ${{ secrets.HEROKU_API_KEY }}

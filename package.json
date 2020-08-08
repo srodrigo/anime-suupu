@@ -10,7 +10,7 @@
     "lint": "eslint 'src/**/*' -c .eslintrc --fix && prettier --write 'src/**/*'",
     "test:ci": "npm run test:unit && npm run test:integration:ci:run",
     "test:unit": "jest",
-    "test:unit:watch": "jest --watch",
+    "test:unit:watch": "jest --watchAll",
     "cypress:open": "cypress open",
     "test:integration": "cypress run --config-file cypress/dev.config.json",
     "test:integration:headless": "cypress run --headless --config-file cypress/dev.config.json",

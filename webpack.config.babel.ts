@@ -1,6 +1,7 @@
 import { merge } from "webpack-merge";
 import path from "path";
 import { Configuration } from "webpack";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import CopyWebpackPlugin from "copy-webpack-plugin";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
@@ -52,7 +53,7 @@ const developmentConfig: Configuration = {
       "react-dom": "@hot-loader/react-dom",
     },
   },
-  plugins: [new BundleAnalyzerPlugin()],
+  plugins: [new HtmlWebpackPlugin(), new BundleAnalyzerPlugin()],
 };
 
 module.exports = (environment: string) => {

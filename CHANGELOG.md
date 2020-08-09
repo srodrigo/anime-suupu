@@ -1,4 +1,4 @@
-# 0.4.0 (2020-08-09)
+# 0.5.0 (2020-08-09)
 
 
 ### Bug Fixes
@@ -15,6 +15,11 @@
 ### Features
 
 * display package json version ([2b3ae62](https://github.com/srodrigo/anime-suupu/commit/2b3ae62a9038a75a1de1c108208acad150602ec1))
+
+
+### Reverts
+
+* Revert "ci: attempt to fix latest commit ref" ([8c3570d](https://github.com/srodrigo/anime-suupu/commit/8c3570d597e4f1311e647c41c27895ee1653a381))
 
 
 

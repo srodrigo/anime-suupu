@@ -1,4 +1,5 @@
 {
   "baseUrl": "http://localhost:8010",
+  "video": false,
   "watchForFileChanges": true
 }

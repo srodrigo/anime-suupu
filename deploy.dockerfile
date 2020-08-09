@@ -11,7 +11,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build && npm run release
+RUN npm run build
 
 WORKDIR /usr/src/release
 

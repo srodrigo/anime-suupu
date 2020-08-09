@@ -7,15 +7,30 @@ on:
     branches: [master]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-
       - name: Run linters and tests
         run: chmod +x test.sh && ./test.sh
 
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Bump version and push tag
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          git-message: "chore(release): {version}"
+          preset: "angular"
+          tag-prefix: ""
+          output-file: "CHANGELOG.md"
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - name: Deploy to Production environment
         env:
           HEROKU_TOKEN: ${{ secrets.HEROKU_API_KEY }}

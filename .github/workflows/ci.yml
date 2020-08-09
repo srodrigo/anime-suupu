@@ -27,10 +27,6 @@ jobs:
           tag-prefix: ""
           release-count: 0
           output-file: "CHANGELOG.md"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
     runs-on: ubuntu-latest

@@ -10,7 +10,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
       - name: Run linters and tests
         run: chmod +x test.sh && ./test.sh
 
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: test
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
       - name: Bump version and push tag
         uses: TriPSs/conventional-changelog-action@v3
         with:
@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: release
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
         with:
           fetch-depth: 0
       - name: Deploy to Production environment

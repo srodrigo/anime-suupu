@@ -1,4 +1,4 @@
-# 0.6.0 (2020-08-09)
+# 0.7.0 (2020-08-09)
 
 
 ### Bug Fixes
@@ -19,6 +19,7 @@
 
 ### Reverts
 
+* Revert "ci: add explicit push after last release step" ([5946bc0](https://github.com/srodrigo/anime-suupu/commit/5946bc08afdf566d0d0118e442025b8f4b194aec))
 * Revert "ci: attempt to fix latest commit ref" ([8c3570d](https://github.com/srodrigo/anime-suupu/commit/8c3570d597e4f1311e647c41c27895ee1653a381))
 
 

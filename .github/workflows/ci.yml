@@ -33,8 +33,7 @@ jobs:
     needs: release
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+        run: git pull origin master
       - name: Deploy to Production environment
         env:
           HEROKU_TOKEN: ${{ secrets.HEROKU_API_KEY }}

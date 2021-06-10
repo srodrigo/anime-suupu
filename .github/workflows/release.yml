@@ -25,10 +25,10 @@ jobs:
           tag-prefix: ""
           release-count: "0"
           output-file: "CHANGELOG.md"
-      - name: Deploy to Production environment
+      - name: Release to Production environment
         env:
           HEROKU_TOKEN: ${{ secrets.HEROKU_API_KEY }}
           APP_NAME: ${{ secrets.HEROKU_ANIME_SUUPU_PROD_APP_NAME }}
           GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
           GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
-        run: chmod +x deploy.sh && ./deploy.sh
+        run: chmod +x release.sh && ./release.sh

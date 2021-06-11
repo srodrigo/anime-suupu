@@ -4,7 +4,7 @@ RUN apk add git
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+COPY . ./
 
 CMD npm install && \
   git config --global user.email "$GIT_USER_EMAIL" && \

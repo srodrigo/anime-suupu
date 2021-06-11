@@ -18,13 +18,11 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Bump version and push tag
-        uses: TriPSs/conventional-changelog-action@v3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          git-message: "chore(release): {version}"
-          tag-prefix: ""
-          release-count: "0"
-          output-file: "CHANGELOG.md"
+        run: |
+          git config user.name "${{ secrets.GIT_USER_NAME }}"
+          git config user.email "${{ secrets.GIT_USER_EMAIL }}"
+          npm run release
+          git push origin --tags
       - name: Release to Production environment
         env:
           HEROKU_TOKEN: ${{ secrets.HEROKU_API_KEY }}

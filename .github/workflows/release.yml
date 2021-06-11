@@ -12,16 +12,21 @@ jobs:
       - name: Run linters and tests
         run: chmod +x test.sh && ./test.sh
 
-  release:
+  prepare-release:
     runs-on: ubuntu-latest
     needs: test
     steps:
       - uses: actions/checkout@master
-      - name: Bump version and push tag
+      - name: Prepare release
         env:
           GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
           GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
         run: chmod +x prepare-release.sh && ./prepare-release.sh
+
+  release:
+    runs-on: ubuntu-latest
+    needs: prepare-release
+    steps:
       - uses: actions/checkout@master
       - name: Release to Production environment
         env:

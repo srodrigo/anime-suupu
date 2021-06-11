@@ -4,6 +4,8 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+export DOCKER_BUILDKIT=1
+
 docker build -t anime-suupu/run-local -f run-local.dockerfile .
 
 docker run --rm \

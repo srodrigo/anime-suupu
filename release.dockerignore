@@ -1,0 +1,16 @@
+**/node_modules
+npm-debug.log
+dist
+
+*stats.json
+.git
+
+coverage
+cypress/videos
+cypress/screenshots
+
+*.dockerignore
+*.dockerfile
+.gitignore
+
+*.sh

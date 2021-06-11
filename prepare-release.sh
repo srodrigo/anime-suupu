@@ -4,6 +4,8 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+export DOCKER_BUILDKIT=1
+
 docker build -t anime-suupu/prepare-release-prod -f prepare-release.dockerfile .
 
 docker run --rm \

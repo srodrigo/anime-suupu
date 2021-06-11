@@ -4,6 +4,8 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+export DOCKER_BUILDKIT=1
+
 docker build -t anime-suupu/release-prod -f release.dockerfile .
 
 VERSION=$(sed -nE 's/^\s*"version": "(.*?)",$/\1/p' package.json)

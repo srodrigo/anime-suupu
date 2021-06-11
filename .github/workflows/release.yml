@@ -22,6 +22,7 @@ jobs:
           GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
           GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
         run: chmod +x prepare-release.sh && ./prepare-release.sh
+      - uses: actions/checkout@master
       - name: Release to Production environment
         env:
           HEROKU_TOKEN: ${{ secrets.HEROKU_API_KEY }}

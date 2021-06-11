@@ -15,25 +15,23 @@ RUN npm run build
 
 WORKDIR /usr/src/release
 
-CMD cat package.json
-
-# CMD git config --global user.email "$GIT_USER_EMAIL" && \
-#   git config --global user.name "$GIT_USER_NAME" && \
-#   echo "machine api.heroku.com" >> ~/.netrc && \
-#   echo "  login $GIT_USER_EMAIL" >> ~/.netrc && \
-#   echo "  password $HEROKU_TOKEN" >> ~/.netrc && \
-#   echo "machine git.heroku.com" >> ~/.netrc && \
-#   echo "  login $GIT_USER_EMAIL" >> ~/.netrc && \
-#   echo "  password $HEROKU_TOKEN" >> ~/.netrc && \
-#   git clone https://git.heroku.com/$APP_NAME.git && \
-#   cd anime-suupu && \
-#   mkdir -p dist && \
-#   cp /usr/src/app/dist/* ./dist && \
-#   cp /usr/src/app/static.json . && \
-#   git add static.json dist && \
-#   git diff-index --quiet HEAD || git commit -m "Releasing $VERSION" && \
-#   heroku buildpacks:clear && \
-#   heroku buildpacks:set https://github.com/heroku/heroku-buildpack-static.git && \
-#   heroku git:remote -a $APP_NAME && \
-#   echo "Pushing to Heroku" && \
-#   git push heroku master
+CMD git config --global user.email "$GIT_USER_EMAIL" && \
+  git config --global user.name "$GIT_USER_NAME" && \
+  echo "machine api.heroku.com" >> ~/.netrc && \
+  echo "  login $GIT_USER_EMAIL" >> ~/.netrc && \
+  echo "  password $HEROKU_TOKEN" >> ~/.netrc && \
+  echo "machine git.heroku.com" >> ~/.netrc && \
+  echo "  login $GIT_USER_EMAIL" >> ~/.netrc && \
+  echo "  password $HEROKU_TOKEN" >> ~/.netrc && \
+  git clone https://git.heroku.com/$APP_NAME.git && \
+  cd anime-suupu && \
+  mkdir -p dist && \
+  cp /usr/src/app/dist/* ./dist && \
+  cp /usr/src/app/static.json . && \
+  git add static.json dist && \
+  git diff-index --quiet HEAD || git commit -m "Releasing $VERSION" && \
+  heroku buildpacks:clear && \
+  heroku buildpacks:set https://github.com/heroku/heroku-buildpack-static.git && \
+  heroku git:remote -a $APP_NAME && \
+  echo "Pushing $VERSION to Heroku" && \
+  git push heroku master

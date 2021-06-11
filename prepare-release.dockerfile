@@ -10,4 +10,6 @@ CMD npm install && \
   git config --global user.email "$GIT_USER_EMAIL" && \
   git config --global user.name "$GIT_USER_NAME" && \
   npm run release && \
+  git add package*.json CHANGELOG.md && \
+  git push origin master && \
   git push origin --tags

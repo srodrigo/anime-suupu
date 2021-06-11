@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-        ref: "master"
+        with:
+          ref: "master"
       - name: Run linters and tests
         run: chmod +x test.sh && ./test.sh

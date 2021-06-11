@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
+        ref: "master"
       - name: Run linters and tests
         run: chmod +x test.sh && ./test.sh
 
@@ -17,6 +18,7 @@ jobs:
     needs: test
     steps:
       - uses: actions/checkout@main
+        ref: "master"
       - name: Prepare release
         env:
           GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
@@ -28,6 +30,7 @@ jobs:
     needs: prepare-release
     steps:
       - uses: actions/checkout@main
+        ref: "master"
       - name: Release to Production environment
         env:
           HEROKU_TOKEN: ${{ secrets.HEROKU_API_KEY }}

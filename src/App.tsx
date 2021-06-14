@@ -3,15 +3,16 @@ import { hot } from "react-hot-loader";
 
 import Footer from "./Footer";
 
-interface Props {
+interface Properties {
   version: string;
 }
 
-const App: React.FC<Props> = ({ version }: Props) => (
+const App: React.FC<Properties> = ({ version }: Properties) => (
   <div data-testid="app">
     Hello world TS!
     <Footer version={version} data-testid="footer" />
   </div>
 );
 
+// eslint-disable-next-line unicorn/prefer-module
 export default hot(module)(App);

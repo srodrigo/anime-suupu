@@ -1,10 +1,10 @@
 import React from "react";
 
-interface Props {
+interface Properties {
   version: string;
 }
 
-const Footer: React.FC<Props> = ({ version }: Props) => (
+const Footer: React.FC<Properties> = ({ version }: Properties) => (
   <div data-testid="version">{`Version ${version}`}</div>
 );
 

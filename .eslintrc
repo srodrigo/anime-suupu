@@ -18,10 +18,7 @@
     "plugin:import/warnings",
     "plugin:jsdoc/recommended",
     "plugin:unicorn/recommended",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/standard",
-    "prettier/unicorn"
+    "prettier"
   ],
   "plugins": ["react", "prettier", "@typescript-eslint", "jsdoc", "import", "unicorn"],
   "env": {

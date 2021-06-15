@@ -61,15 +61,27 @@ const ciConfig: Configuration = {
   plugins: [new HtmlWebpackPlugin()],
 };
 
-module.exports = (environment: string) => {
-  switch (environment) {
-    case "ci":
-      return merge(commonConfig, ciConfig);
-    case "development":
-      return merge(commonConfig, developmentConfig);
-    case "production":
-      return merge(commonConfig, productionConfig);
-    default:
-      throw new Error("No matching configuration was found!");
+type Config = {
+  WEBPACK_BUNDLE?: boolean;
+  WEBPACK_BUILD?: boolean;
+  WEBPACK_SERVE?: boolean;
+  production?: boolean;
+  dev?: boolean;
+  ci?: boolean;
+};
+
+module.exports = (config: Config) => {
+  if (config.production) {
+    return merge(commonConfig, productionConfig);
   }
+
+  if (config.ci) {
+    return merge(commonConfig, ciConfig);
+  }
+
+  if (config.dev) {
+    return merge(commonConfig, developmentConfig);
+  }
+
+  throw new Error("No matching configuration was found!");
 };

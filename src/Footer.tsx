@@ -5,7 +5,7 @@ interface Properties {
 }
 
 const Footer: React.FC<Properties> = ({ version }: Properties) => (
-  <div data-testid="version">{`Version ${version}`}</div>
+  <div>{`Version ${version}`}</div>
 );
 
 export default Footer;

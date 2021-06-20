@@ -5,7 +5,7 @@ dist
 *stats.json
 .git
 
-coverage
+.coverage
 cypress/videos
 cypress/screenshots
 

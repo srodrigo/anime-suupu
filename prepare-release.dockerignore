@@ -4,6 +4,6 @@ dist
 
 *stats.json
 
-coverage
+.coverage
 cypress/videos
 cypress/screenshots

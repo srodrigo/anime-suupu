@@ -8,4 +8,5 @@ module.exports = {
   testEnvironment: "jsdom",
   setupFilesAfterEnv: ["<rootDir>/src/setupTests.ts"],
   collectCoverage: true,
+  coverageDirectory: ".coverage",
 };

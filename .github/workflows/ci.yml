@@ -11,3 +11,5 @@ jobs:
       - uses: actions/checkout@main
       - name: Run linters and tests
         run: chmod +x test.sh && ./test.sh
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v1

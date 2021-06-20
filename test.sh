@@ -8,4 +8,6 @@ export DOCKER_BUILDKIT=1
 
 docker build -t anime-suupu/test-ci -f test.dockerfile .
 
-docker run --rm anime-suupu/test-ci
+docker run --rm \
+  -v ${PWD}/.coverage:/test/.coverage \
+  anime-suupu/test-ci

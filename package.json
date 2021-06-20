@@ -19,13 +19,9 @@
     "stats:prod": "webpack --config webpack.config.babel.ts --env production --progress --profile --json > prod.stats.json",
     "stats:dev": "webpack --config webpack.config.babel.ts --env dev --progress --profile --json > dev.stats.json",
     "release": "standard-version",
-    "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint --color --edit -E HUSKY_GIT_PARAMS"
-    }
+    "prepare": "husky install",
+    "pre-commit": "npx lint-staged && npm run test",
+    "commit-msg": "commitlint --color --edit"
   },
   "lint-staged": {
     "src/**/*": [

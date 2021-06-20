@@ -9,7 +9,6 @@ interface Properties {
 
 const App: React.FC<Properties> = ({ version }: Properties) => (
   <div data-testid="app">
-    Hello world TS!
     <Footer version={version} />
   </div>
 );

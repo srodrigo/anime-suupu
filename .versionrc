@@ -1,0 +1,12 @@
+"types": [
+    {"type": "feat", "section": "Features"},
+    {"type": "fix", "section": "Bug Fixes"},
+    {"type": "docs", "section": "Docs"},
+    {"type": "chore", "section": "Chores"},
+    {"type": "refactor", "section": "Chores"},
+    {"type": "style", "section": "Style"},
+    {"type": "perf", "section": "Performance"},
+    {"type": "build", "section": "Build"},
+    {"type": "ci", "section": "Build"},
+    {"type": "test", "section": "Test"}
+]

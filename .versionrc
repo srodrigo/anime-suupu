@@ -1,4 +1,5 @@
-"types": [
+{
+  "types": [
     {"type": "feat", "section": "Features"},
     {"type": "fix", "section": "Bug Fixes"},
     {"type": "docs", "section": "Docs"},
@@ -9,4 +10,5 @@
     {"type": "build", "section": "Build"},
     {"type": "ci", "section": "Build"},
     {"type": "test", "section": "Test"}
-]
+  ]
+}

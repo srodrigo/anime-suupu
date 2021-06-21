@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.46](https://github.com/srodrigo/anime-suupu/compare/v0.8.45...v0.8.46) (2021-06-21)
+
+
+### Build
+
+* **#75:** fix .versionrc json structure ([51a7fe6](https://github.com/srodrigo/anime-suupu/commit/51a7fe6d391b03ca4f4948941b91033c21f7e1a5))
+* **#75:** include all commits on changelog ([383e36f](https://github.com/srodrigo/anime-suupu/commit/383e36f452768bf56da33c2439f704599a1d58b5)), closes [#75](https://github.com/srodrigo/anime-suupu/issues/75)
+
 ### [0.8.45](https://github.com/srodrigo/anime-suupu/compare/v0.8.44...v0.8.45) (2021-06-21)
 
 ### [0.8.44](https://github.com/srodrigo/anime-suupu/compare/v0.8.42...v0.8.44) (2021-06-21)

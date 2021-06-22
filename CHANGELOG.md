@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.51](https://github.com/srodrigo/anime-suupu/compare/v0.8.50...v0.8.51) (2021-06-22)
+
+
+### Build
+
+* **deps-dev:** bump @babel/plugin-proposal-object-rest-spread ([435ce54](https://github.com/srodrigo/anime-suupu/commit/435ce544c2bb8a54b6b03d36cc5c788095308508))
+* **deps-dev:** bump babel-jest from 27.0.2 to 27.0.5 ([3948bda](https://github.com/srodrigo/anime-suupu/commit/3948bda5becace2d25afbd66ac5ad743504e84a1))
+
 ### [0.8.50](https://github.com/srodrigo/anime-suupu/compare/v0.8.49...v0.8.50) (2021-06-22)
 
 

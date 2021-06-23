@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.54](https://github.com/srodrigo/anime-suupu/compare/v0.8.53...v0.8.54) (2021-06-23)
+
+
+### Build
+
+* **deps-dev:** bump @testing-library/react from 11.2.7 to 12.0.0 ([3112d0c](https://github.com/srodrigo/anime-suupu/commit/3112d0c11794c44d9f97ba0021e82500ea8b0508))
+
 ### [0.8.53](https://github.com/srodrigo/anime-suupu/compare/v0.8.52...v0.8.53) (2021-06-22)
 
 

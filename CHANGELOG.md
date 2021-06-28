@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.61](https://github.com/srodrigo/anime-suupu/compare/v0.8.60...v0.8.61) (2021-06-28)
+
+
+### Build
+
+* **deps-dev:** bump eslint-plugin-unicorn from 33.0.1 to 34.0.0 ([d74b02b](https://github.com/srodrigo/anime-suupu/commit/d74b02b0dd24af50a97e2bce1180bfb996398b0d))
+
 ### [0.8.60](https://github.com/srodrigo/anime-suupu/compare/v0.8.59...v0.8.60) (2021-06-28)
 
 

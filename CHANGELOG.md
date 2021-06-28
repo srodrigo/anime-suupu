@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.59](https://github.com/srodrigo/anime-suupu/compare/v0.8.58...v0.8.59) (2021-06-28)
+
+
+### Build
+
+* **deps-dev:** bump prettier from 2.3.1 to 2.3.2 ([b4affd8](https://github.com/srodrigo/anime-suupu/commit/b4affd8c554d84a1079c33a7103cf52b53c31bdf))
+
 ### [0.8.58](https://github.com/srodrigo/anime-suupu/compare/v0.8.57...v0.8.58) (2021-06-28)
 
 

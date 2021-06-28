@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.60](https://github.com/srodrigo/anime-suupu/compare/v0.8.59...v0.8.60) (2021-06-28)
+
+
+### Build
+
+* **deps-dev:** bump babel-jest from 27.0.5 to 27.0.6 ([b41b889](https://github.com/srodrigo/anime-suupu/commit/b41b889180ac021645c61c08f0959d545844f071))
+
 ### [0.8.59](https://github.com/srodrigo/anime-suupu/compare/v0.8.58...v0.8.59) (2021-06-28)
 
 

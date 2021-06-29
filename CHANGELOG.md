@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.62](https://github.com/srodrigo/anime-suupu/compare/v0.8.61...v0.8.62) (2021-06-29)
+
+
+### Build
+
+* **deps-dev:** bump jest from 27.0.5 to 27.0.6 ([fc379d2](https://github.com/srodrigo/anime-suupu/commit/fc379d28e947efdddce41cf518073e838e80984d))
+
 ### [0.8.61](https://github.com/srodrigo/anime-suupu/compare/v0.8.60...v0.8.61) (2021-06-28)
 
 

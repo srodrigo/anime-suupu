@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.67](https://github.com/srodrigo/anime-suupu/compare/v0.8.66...v0.8.67) (2021-07-01)
+
+
+### Build
+
+* **deps-dev:** bump husky from 6.0.0 to 7.0.0 ([3f65380](https://github.com/srodrigo/anime-suupu/commit/3f65380bd0773125e07d8c16bd05f070083c3a86))
+
 ### [0.8.66](https://github.com/srodrigo/anime-suupu/compare/v0.8.65...v0.8.66) (2021-07-01)
 
 

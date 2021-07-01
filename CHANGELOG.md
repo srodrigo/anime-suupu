@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.66](https://github.com/srodrigo/anime-suupu/compare/v0.8.65...v0.8.66) (2021-07-01)
+
+
+### Build
+
+* **deps-dev:** bump typescript from 4.3.4 to 4.3.5 ([0baff63](https://github.com/srodrigo/anime-suupu/commit/0baff630a168c87c382ca969fd0087ed5d88d074))
+
 ### [0.8.65](https://github.com/srodrigo/anime-suupu/compare/v0.8.64...v0.8.65) (2021-06-30)
 
 

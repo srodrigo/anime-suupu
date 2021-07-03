@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 COPY . ./
 
-CMD npm install && \
+CMD CYPRESS_INSTALL_BINARY=0 npm install && \
   git config --global user.email "$GIT_USER_EMAIL" && \
   git config --global user.name "$GIT_USER_NAME" && \
   git pull origin master && \

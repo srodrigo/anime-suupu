@@ -54,8 +54,10 @@
         }
       }
     ],
+    "unicorn/no-null": ["off"],
     "prefer-promise-reject-errors": ["off"],
     "react/jsx-filename-extension": ["off"],
+    "react/jsx-props-no-spreading": ["off"],
     "react/jsx-closing-bracket-location": [1, "tag-aligned"],
     "react/prop-types": ["off"],
     "no-return-assign": ["off"],

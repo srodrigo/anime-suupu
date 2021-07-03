@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.70](https://github.com/srodrigo/anime-suupu/compare/v0.8.69...v0.8.70) (2021-07-03)
+
+
+### Build
+
+* **#103:** skip cypress binary ([ada012e](https://github.com/srodrigo/anime-suupu/commit/ada012e9489130fa2c1fb454efc034aa9820bacc)), closes [#103](https://github.com/srodrigo/anime-suupu/issues/103)
+
 ### [0.8.69](https://github.com/srodrigo/anime-suupu/compare/v0.8.68...v0.8.69) (2021-07-03)
 
 

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.74](https://github.com/srodrigo/anime-suupu/compare/v0.8.73...v0.8.74) (2021-07-09)
+
+
+### Build
+
+* **deps-dev:** bump eslint-plugin-testing-library from 4.7.0 to 4.9.0 ([ddc983f](https://github.com/srodrigo/anime-suupu/commit/ddc983f0ad69b78b1feab37f3b17a6215417cbc8))
+
 ### [0.8.73](https://github.com/srodrigo/anime-suupu/compare/v0.8.72...v0.8.73) (2021-07-09)
 
 

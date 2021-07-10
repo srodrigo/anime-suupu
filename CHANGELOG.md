@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.79](https://github.com/srodrigo/anime-suupu/compare/v0.8.78...v0.8.79) (2021-07-10)
+
+
+### Bug Fixes
+
+* use npm 7 on pre-release ([968710f](https://github.com/srodrigo/anime-suupu/commit/968710f8d4f6f46948ad738a54956e958f570724))
+
+
+### Chores
+
+*  upgrade package lock to version 2 ([c31aad8](https://github.com/srodrigo/anime-suupu/commit/c31aad8698b24d96b70203367d0b52bb7eef959f))
+
+
+### Build
+
+* use npm in dockerfiles ([2e89b0f](https://github.com/srodrigo/anime-suupu/commit/2e89b0ff756dd7e85b66f58beff774f0a2b75172))
+
 ### [0.8.78](https://github.com/srodrigo/anime-suupu/compare/v0.8.77...v0.8.78) (2021-07-10)
 
 

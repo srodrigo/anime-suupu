@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.77](https://github.com/srodrigo/anime-suupu/compare/v0.8.76...v0.8.77) (2021-07-10)
+
+
+### Build
+
+* upgrade to node 16 ([fb13f0a](https://github.com/srodrigo/anime-suupu/commit/fb13f0a94ef7b8022ab92d12763c7b28e5361665))
+
 ### [0.8.76](https://github.com/srodrigo/anime-suupu/compare/v0.8.75...v0.8.76) (2021-07-10)
 
 

@@ -1,7 +1,8 @@
 FROM node:14.7-alpine3.12
 
 RUN apk add git && \
-  npm install -g heroku
+  npm install -g heroku && \
+  npm install -g npm@7
 
 WORKDIR /usr/src/app
 

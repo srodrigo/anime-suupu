@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.80](https://github.com/srodrigo/anime-suupu/compare/v0.8.79...v0.8.80) (2021-07-10)
+
+
+### Build
+
+* **deps-dev:** bump cypress from 7.6.0 to 7.7.0 ([73ba9bb](https://github.com/srodrigo/anime-suupu/commit/73ba9bbdff34a20e09d2f27809d9d2f9754478a2))
+
 ### [0.8.79](https://github.com/srodrigo/anime-suupu/compare/v0.8.78...v0.8.79) (2021-07-10)
 
 

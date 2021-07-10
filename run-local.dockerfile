@@ -1,5 +1,7 @@
 FROM node:14.7-alpine3.12
 
+RUN npm install -g npm@7
+
 WORKDIR /app
 
 COPY package*.json ./

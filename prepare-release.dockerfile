@@ -1,6 +1,7 @@
 FROM node:14.7-alpine3.12
 
-RUN apk add git
+RUN npm install -g npm@7 && \
+  apk add git
 
 WORKDIR /usr/src/app
 

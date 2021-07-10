@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.76](https://github.com/srodrigo/anime-suupu/compare/v0.8.75...v0.8.76) (2021-07-10)
+
+
+### Build
+
+* **deps-dev:** bump @typescript-eslint/parser from 4.28.1 to 4.28.2 ([526a8f8](https://github.com/srodrigo/anime-suupu/commit/526a8f8b569393aa98d6385155f898d129ccddbc))
+
 ### [0.8.75](https://github.com/srodrigo/anime-suupu/compare/v0.8.74...v0.8.75) (2021-07-10)
 
 

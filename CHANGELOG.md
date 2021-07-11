@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.82](https://github.com/srodrigo/anime-suupu/compare/v0.8.81...v0.8.82) (2021-07-11)
+
+
+### Build
+
+* **deps-dev:** bump webpack from 5.43.0 to 5.44.0 ([452345c](https://github.com/srodrigo/anime-suupu/commit/452345cdd24a247c0d90203c55f0c08176df6431))
+
 ### [0.8.81](https://github.com/srodrigo/anime-suupu/compare/v0.8.80...v0.8.81) (2021-07-11)
 
 

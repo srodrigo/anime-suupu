@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.84](https://github.com/srodrigo/anime-suupu/compare/v0.8.83...v0.8.84) (2021-07-13)
+
+
+### Build
+
+* **deps-dev:** bump lint-staged from 11.0.0 to 11.0.1 ([3da7a3f](https://github.com/srodrigo/anime-suupu/commit/3da7a3f7817f8cfd490e0847533efb4697116e4d))
+
 ### [0.8.83](https://github.com/srodrigo/anime-suupu/compare/v0.8.82...v0.8.83) (2021-07-12)
 
 

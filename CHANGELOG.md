@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.87](https://github.com/srodrigo/anime-suupu/compare/v0.8.86...v0.8.87) (2021-07-17)
+
+
+### Features
+
+* **#51:** list trending anime series ([f28e88b](https://github.com/srodrigo/anime-suupu/commit/f28e88bea3e978fb1ecc9c8bbc685ab6b605e2ce)), closes [#51](https://github.com/srodrigo/anime-suupu/issues/51)
+
+
+### Test
+
+* fix jest coverage sources ([7b15c2f](https://github.com/srodrigo/anime-suupu/commit/7b15c2f4a2e7bfded8ea14984a7266f03f21fbeb))
+
 ### [0.8.86](https://github.com/srodrigo/anime-suupu/compare/v0.8.85...v0.8.86) (2021-07-16)
 
 

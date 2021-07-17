@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.88](https://github.com/srodrigo/anime-suupu/compare/v0.8.87...v0.8.88) (2021-07-17)
+
+
+### Test
+
+* improve trending tests naming ([505d6d5](https://github.com/srodrigo/anime-suupu/commit/505d6d52265acc472628c3c13fc939cc29dbbd56))
+
 ### [0.8.87](https://github.com/srodrigo/anime-suupu/compare/v0.8.86...v0.8.87) (2021-07-17)
 
 

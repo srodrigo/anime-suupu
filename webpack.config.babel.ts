@@ -3,8 +3,9 @@ import path from "path";
 import { Configuration } from "webpack";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
-import CopyWebpackPlugin from "copy-webpack-plugin";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
+import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 
 const commonConfig: Configuration = {
   entry: path.resolve(__dirname, "src", "index.tsx"),
@@ -24,7 +25,26 @@ const commonConfig: Configuration = {
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "src/index.html",
+    }),
+  ],
 };
+
+const stylesRegex = /\.(sa|sc|c)ss$/;
+const commonStyleLoaders = [
+  { loader: "css-loader", options: { importLoaders: 1 } },
+  {
+    loader: "postcss-loader",
+    options: {
+      postcssOptions: {
+        plugins: ["postcss-preset-env"],
+      },
+    },
+  },
+  "sass-loader",
+];
 
 const productionConfig: Configuration = {
   mode: "production",
@@ -33,16 +53,18 @@ const productionConfig: Configuration = {
     react: "React",
     "react-dom": "ReactDOM",
   },
-  plugins: [
-    new CleanWebpackPlugin(),
-    new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: path.resolve(__dirname, "src", "index.html"),
-        },
-      ],
-    }),
-  ],
+  plugins: [new CleanWebpackPlugin(), new MiniCssExtractPlugin()],
+  module: {
+    rules: [
+      {
+        test: stylesRegex,
+        use: [MiniCssExtractPlugin.loader, ...commonStyleLoaders],
+      },
+    ],
+  },
+  optimization: {
+    minimizer: [`...`, new CssMinimizerPlugin()],
+  },
 };
 
 const developmentConfig: Configuration = {
@@ -53,12 +75,27 @@ const developmentConfig: Configuration = {
       "react-dom": "@hot-loader/react-dom",
     },
   },
-  plugins: [new HtmlWebpackPlugin(), new BundleAnalyzerPlugin()],
+  module: {
+    rules: [
+      {
+        test: stylesRegex,
+        use: ["style-loader", ...commonStyleLoaders],
+      },
+    ],
+  },
+  plugins: [new BundleAnalyzerPlugin()],
 };
 
 const ciConfig: Configuration = {
   mode: "development",
-  plugins: [new HtmlWebpackPlugin()],
+  module: {
+    rules: [
+      {
+        test: stylesRegex,
+        use: ["style-loader", ...commonStyleLoaders],
+      },
+    ],
+  },
 };
 
 type Config = {

@@ -5,6 +5,8 @@ import { AppContext } from "./App";
 import Root from "./Root";
 import packageInfo from "../package.json";
 
+import "./style.scss";
+
 const root = document.createElement("div");
 document.body.append(root);
 

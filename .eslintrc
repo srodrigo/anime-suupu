@@ -37,7 +37,7 @@
     "browser": true,
     "jest": true
   },
-  "ignorePatterns": ["*.json", "dist/", "*.html"],
+  "ignorePatterns": ["*.sass", "*.scss", "*.css", "*.json", "dist/", "*.html"],
   "rules": {
     "max-len": [
       "error",

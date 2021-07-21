@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.97](https://github.com/srodrigo/anime-suupu/compare/v0.8.94...v0.8.97) (2021-07-21)
+
+
+### Chores
+
+* **release:** 0.8.95 ([85c19da](https://github.com/srodrigo/anime-suupu/commit/85c19daf2be0127b4cfbb2abb835151d48eb1078))
+* **release:** 0.8.96 ([e001be9](https://github.com/srodrigo/anime-suupu/commit/e001be96f21ffdc274b4023fc5820ea8b71589ae))
+
 ### [0.8.96](https://github.com/srodrigo/anime-suupu/compare/v0.8.93...v0.8.96) (2021-07-21)
 
 

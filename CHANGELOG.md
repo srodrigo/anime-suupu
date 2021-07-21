@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.94](https://github.com/srodrigo/anime-suupu/compare/v0.8.93...v0.8.94) (2021-07-21)
+
+
+### Build
+
+* **deps:** bump msw from 0.31.0 to 0.32.2 ([3585695](https://github.com/srodrigo/anime-suupu/commit/35856957136027889685167d61d57806717d4424))
+* **deps-dev:** bump @babel/core from 7.14.6 to 7.14.8 ([b734f96](https://github.com/srodrigo/anime-suupu/commit/b734f96b70a66a47569c5ef84815cc7680101347))
+* **deps-dev:** bump eslint-plugin-jsdoc from 35.4.5 to 35.5.0 ([f80a5b6](https://github.com/srodrigo/anime-suupu/commit/f80a5b6c588e5b1a2dfb7940df4458033293666c))
+* **deps-dev:** bump eslint-plugin-testing-library from 4.9.1 to 4.10.1 ([735f7a1](https://github.com/srodrigo/anime-suupu/commit/735f7a1b6507d9f40da93bfba503480f70ecaa07))
+* **deps-dev:** bump ts-jest from 27.0.3 to 27.0.4 ([b70afff](https://github.com/srodrigo/anime-suupu/commit/b70afffe0c799d5b4220f6352ad079849f15ddf3))
+
 ### [0.8.93](https://github.com/srodrigo/anime-suupu/compare/v0.8.92...v0.8.93) (2021-07-21)
 
 

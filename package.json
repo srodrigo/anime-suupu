@@ -93,7 +93,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.14.6",
+    "@babel/runtime": "^7.14.8",
     "axios": "^0.21.1",
     "msw": "^0.32.2",
     "react": "^16.14.0",

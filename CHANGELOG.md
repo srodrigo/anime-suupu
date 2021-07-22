@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.99](https://github.com/srodrigo/anime-suupu/compare/v0.8.98...v0.8.99) (2021-07-22)
+
+
+### Build
+
+* **deps-dev:** bump @babel/preset-env from 7.14.7 to 7.14.8 ([e31da34](https://github.com/srodrigo/anime-suupu/commit/e31da3498c97f2a0a0aa99a4636a59a9189b0796))
+
 ### [0.8.98](https://github.com/srodrigo/anime-suupu/compare/v0.8.97...v0.8.98) (2021-07-22)
 
 

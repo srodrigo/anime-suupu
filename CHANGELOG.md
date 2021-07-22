@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.101](https://github.com/srodrigo/anime-suupu/compare/v0.8.100...v0.8.101) (2021-07-22)
+
+
+### Build
+
+* **deps-dev:** bump start-server-and-test from 1.12.5 to 1.13.0 ([0395f4f](https://github.com/srodrigo/anime-suupu/commit/0395f4febd0936512baef049b3988fa21dbf3558))
+
 ### [0.8.100](https://github.com/srodrigo/anime-suupu/compare/v0.8.99...v0.8.100) (2021-07-22)
 
 

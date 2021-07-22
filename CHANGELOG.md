@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.98](https://github.com/srodrigo/anime-suupu/compare/v0.8.97...v0.8.98) (2021-07-22)
+
+
+### Build
+
+* **deps:** bump @babel/runtime from 7.14.6 to 7.14.8 ([e17398d](https://github.com/srodrigo/anime-suupu/commit/e17398d88c53fbc589dfc1e774fd70e1aad1cba7))
+
 ### [0.8.97](https://github.com/srodrigo/anime-suupu/compare/v0.8.94...v0.8.97) (2021-07-21)
 
 

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.104](https://github.com/srodrigo/anime-suupu/compare/v0.8.103...v0.8.104) (2021-07-23)
+
+
+### Build
+
+* **deps:** bump msw from 0.32.2 to 0.33.0 ([04f7545](https://github.com/srodrigo/anime-suupu/commit/04f75452561c1ff37eb95a00594e8e917aba60fe))
+
 ### [0.8.103](https://github.com/srodrigo/anime-suupu/compare/v0.8.102...v0.8.103) (2021-07-22)
 
 

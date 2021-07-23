@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.105](https://github.com/srodrigo/anime-suupu/compare/v0.8.104...v0.8.105) (2021-07-23)
+
+
+### Build
+
+* **deps:** bump regenerator-runtime from 0.13.7 to 0.13.9 ([596a6f7](https://github.com/srodrigo/anime-suupu/commit/596a6f72af17b9d285c819cf68751697ec57a4ce))
+
 ### [0.8.104](https://github.com/srodrigo/anime-suupu/compare/v0.8.103...v0.8.104) (2021-07-23)
 
 

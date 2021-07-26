@@ -1,1 +1,12 @@
-@import "base/reset";
+@import "settings/breakpoints";
+@import "settings/fonts";
+@import "settings/spacing";
+
+@import "generic/reset";
+
+@import "elements/fonts";
+
+@import "components/variables";
+@import "components/app";
+@import "components/series-list";
+@import "components/series-card";

@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import TrendingSeries from "./series";
 
 const Root = (): JSX.Element => (
-  <div data-testid="app">
+  <div className="app" data-testid="app">
     <TrendingSeries />
     <Footer />
   </div>

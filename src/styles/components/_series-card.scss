@@ -1,0 +1,17 @@
+.series-card {
+  display: flex;
+  flex-direction: column;
+
+  > .title {
+    display: flex;
+    justify-content: center;
+    order: 1;
+    padding: 0 0.5em;
+    text-align: center;
+  }
+
+  > .image {
+    border-radius: $series-card-border-radius $series-card-border-radius 0 0;
+    object-fit: cover;
+  }
+}

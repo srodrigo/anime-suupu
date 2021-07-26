@@ -16,15 +16,21 @@ const buildSeriesItem = (item: CollectionItem): JSX.Element => {
   const title = item.attributes.titles.en || item.attributes.titles.en_us;
 
   return (
-    <li key={item.id}>
-      <h2>{title}</h2>
-      <img alt={title} src={item.attributes.posterImage.small} />
+    <li className="series-item" key={item.id}>
+      <article className="series-card">
+        <h2 className="title">{title}</h2>
+        <img className="image" alt={title} src={item.attributes.posterImage.small} />
+      </article>
     </li>
   );
 };
 
 const SeriesList = ({ series }: SeriesListProperties): JSX.Element | null =>
-  series && <ul data-testid="series-list">{series.map(buildSeriesItem)}</ul>;
+  series && (
+    <ul className="series-list" data-testid="series-list">
+      {series.map(buildSeriesItem)}
+    </ul>
+  );
 
 const TrendingSeries = (): JSX.Element | null => {
   const [series, setSeries] = useState<CollectionItem[] | null>(null);

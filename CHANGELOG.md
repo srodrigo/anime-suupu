@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.106](https://github.com/srodrigo/anime-suupu/compare/v0.8.105...v0.8.106) (2021-07-27)
+
+
+### Features
+
+* **#136:** default to empty title if not available ([95cfabf](https://github.com/srodrigo/anime-suupu/commit/95cfabf2c172541ea8c724d352f647c6fed652ba)), closes [#136](https://github.com/srodrigo/anime-suupu/issues/136)
+* **#136:** show series images in a grid ([965a089](https://github.com/srodrigo/anime-suupu/commit/965a089678c18e5acf044301f343c6715864a0fe)), closes [#136](https://github.com/srodrigo/anime-suupu/issues/136)
+* remove unnecessary root element ([2bee1fc](https://github.com/srodrigo/anime-suupu/commit/2bee1fc6c184206a450b8bf6a42b017acb466095))
+* **#136:** add saas support ([ffe3986](https://github.com/srodrigo/anime-suupu/commit/ffe39869d71ef3c82bbb82843804a050c636a862)), closes [#136](https://github.com/srodrigo/anime-suupu/issues/136)
+* **#136:** show series images ([951e961](https://github.com/srodrigo/anime-suupu/commit/951e96171e9c60edb048653f44fd112bb62c0e29)), closes [#136](https://github.com/srodrigo/anime-suupu/issues/136)
+
 ### [0.8.105](https://github.com/srodrigo/anime-suupu/compare/v0.8.104...v0.8.105) (2021-07-23)
 
 

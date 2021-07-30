@@ -1,6 +1,6 @@
 {
   "name": "anime-suupu",
-  "version": "0.8.106",
+  "version": "0.8.107",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -82,11 +82,11 @@
     "jest": "^27.0.6",
     "lint-staged": "^11.1.0",
     "mini-css-extract-plugin": "^2.1.0",
-    "postcss": "^8.3.5",
+    "postcss": "^8.3.6",
     "postcss-loader": "^6.1.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.3.2",
-    "sass": "^1.35.2",
+    "sass": "^1.36.0",
     "sass-loader": "^12.1.0",
     "standard-version": "^9.3.1",
     "start-server-and-test": "^1.13.0",

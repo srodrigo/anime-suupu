@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.109](https://github.com/srodrigo/anime-suupu/compare/v0.8.108...v0.8.109) (2021-07-30)
+
+
+### Build
+
+* **deps-dev:** bump style-loader from 3.1.0 to 3.2.1 ([72e0680](https://github.com/srodrigo/anime-suupu/commit/72e06801901ff67779e75a1e902d7e26df39ca1d))
+
 ### [0.8.108](https://github.com/srodrigo/anime-suupu/compare/v0.8.107...v0.8.108) (2021-07-30)
 
 

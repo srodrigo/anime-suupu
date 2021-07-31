@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.116](https://github.com/srodrigo/anime-suupu/compare/v0.8.115...v0.8.116) (2021-07-31)
+
+
+### Build
+
+* **deps-dev:** bump css-loader from 6.1.0 to 6.2.0 ([c9110f1](https://github.com/srodrigo/anime-suupu/commit/c9110f10d10785c39019634bc71ad74c449273f8))
+
 ### [0.8.115](https://github.com/srodrigo/anime-suupu/compare/v0.8.114...v0.8.115) (2021-07-31)
 
 

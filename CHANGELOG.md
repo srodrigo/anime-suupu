@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.115](https://github.com/srodrigo/anime-suupu/compare/v0.8.114...v0.8.115) (2021-07-31)
+
+
+### Build
+
+* **deps-dev:** bump sass from 1.36.0 to 1.37.0 ([71fd58c](https://github.com/srodrigo/anime-suupu/commit/71fd58cfebc18db592098229d5dca2cc24e7ed09))
+
 ### [0.8.114](https://github.com/srodrigo/anime-suupu/compare/v0.8.113...v0.8.114) (2021-07-31)
 
 

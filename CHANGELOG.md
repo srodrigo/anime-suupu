@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.121](https://github.com/srodrigo/anime-suupu/compare/v0.8.120...v0.8.121) (2021-08-08)
+
+
+### Build
+
+* **deps-dev:** bump mini-css-extract-plugin from 2.1.0 to 2.2.0 ([7bf5d59](https://github.com/srodrigo/anime-suupu/commit/7bf5d594bfe1539bc9222b2ea32a23a7164e8fed))
+
 ### [0.8.120](https://github.com/srodrigo/anime-suupu/compare/v0.8.119...v0.8.120) (2021-08-08)
 
 

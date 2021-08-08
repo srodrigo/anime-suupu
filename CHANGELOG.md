@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.119](https://github.com/srodrigo/anime-suupu/compare/v0.8.118...v0.8.119) (2021-08-08)
+
+
+### Build
+
+* **deps-dev:** bump @commitlint/cli from 12.1.4 to 13.1.0 ([713409e](https://github.com/srodrigo/anime-suupu/commit/713409e52fde3e8dc26f9e3c9c4bb31b38771d07))
+
 ### [0.8.118](https://github.com/srodrigo/anime-suupu/compare/v0.8.117...v0.8.118) (2021-08-08)
 
 

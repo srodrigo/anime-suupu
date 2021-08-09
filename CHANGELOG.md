@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.124](https://github.com/srodrigo/anime-suupu/compare/v0.8.123...v0.8.124) (2021-08-09)
+
+
+### Build
+
+* **deps-dev:** bump eslint-plugin-json from 3.0.0 to 3.1.0 ([3a37c3c](https://github.com/srodrigo/anime-suupu/commit/3a37c3c83548c3980abf54ad004528a88bd96eee))
+
 ### [0.8.123](https://github.com/srodrigo/anime-suupu/compare/v0.8.122...v0.8.123) (2021-08-09)
 
 

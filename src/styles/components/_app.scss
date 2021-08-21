@@ -1,5 +1,13 @@
 .app {
   > .series-list {
-    margin: $spacing-m;
+    margin: $spacing-s;
+
+    @include respond-to(tablet-portrait-up) {
+      margin: $spacing-m;
+    }
+
+    @include respond-to(desktop-up) {
+      margin: $spacing-l;
+    }
   }
 }

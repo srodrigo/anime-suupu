@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.138](https://github.com/srodrigo/anime-suupu/compare/v0.8.137...v0.8.138) (2021-08-21)
+
+
+### Features
+
+* **#136:** make margins responsive ([cc56218](https://github.com/srodrigo/anime-suupu/commit/cc562188f11eeb71678fd8727efdd9deaab82a8c)), closes [#136](https://github.com/srodrigo/anime-suupu/issues/136)
+
 ### [0.8.137](https://github.com/srodrigo/anime-suupu/compare/v0.8.136...v0.8.137) (2021-08-21)
 
 

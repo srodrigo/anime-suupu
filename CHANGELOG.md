@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.136](https://github.com/srodrigo/anime-suupu/compare/v0.8.135...v0.8.136) (2021-08-21)
+
+
+### Features
+
+* **#136:** add fluid typography ([ff89379](https://github.com/srodrigo/anime-suupu/commit/ff893791f489dd029124759faa0d2477461115c7)), closes [#136](https://github.com/srodrigo/anime-suupu/issues/136)
+
 ### [0.8.135](https://github.com/srodrigo/anime-suupu/compare/v0.8.134...v0.8.135) (2021-08-20)
 
 

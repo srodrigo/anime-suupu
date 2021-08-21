@@ -1,11 +1,7 @@
 .series-list {
   display: grid;
   gap: $spacing-default;
-  grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
-
-  @include respond-to(tablet-desktop-up) {
-    grid-template-columns: repeat(auto-fill, minmax(24em, 1fr));
-  }
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
 
   > .series-item {
     border-radius: $series-card-border-radius;

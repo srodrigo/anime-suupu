@@ -2,18 +2,10 @@
 $font-size-base: 62.5%;
 $font-size-small: 1.6rem;
 $font-size-default: 2rem;
-$font-size-large: 2.8rem;
+$font-size-large: 2.4rem;
 
 $font-primary-color: #1b1b1b;
 
 html {
-  font-size: $font-size-base;
-
-  @include respond-to(tablet-portrait-up) {
-    font-size: 1.1 * $font-size-base;
-  }
-
-  @include respond-to(tablet-tablet-up) {
-    font-size: 1.2 * $font-size-base;
-  }
+  font-size: calc(#{$font-size-base} + 2 * (100vw - 600px) / (1800 - 600));
 }

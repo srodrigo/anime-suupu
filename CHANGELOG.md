@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.137](https://github.com/srodrigo/anime-suupu/compare/v0.8.136...v0.8.137) (2021-08-21)
+
+
+### Features
+
+* **#136:** improve series layout responsiveness ([a1b8dc1](https://github.com/srodrigo/anime-suupu/commit/a1b8dc1a0178954a1b3d8cf45e2b036efd7bbbd0)), closes [#136](https://github.com/srodrigo/anime-suupu/issues/136)
+
 ### [0.8.136](https://github.com/srodrigo/anime-suupu/compare/v0.8.135...v0.8.136) (2021-08-21)
 
 

@@ -1,4 +1,4 @@
-FROM cypress/base:14.7.0
+FROM cypress/base:14.17.0
 
 RUN npm install -g npm@7
 

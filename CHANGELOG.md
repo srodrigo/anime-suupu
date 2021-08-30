@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.140](https://github.com/srodrigo/anime-suupu/compare/v0.8.139...v0.8.140) (2021-08-30)
+
+
+### Build
+
+* **#124:** fix vulnerabilities with npm audit ([a565734](https://github.com/srodrigo/anime-suupu/commit/a5657349aac82fdd432c2cb5ee941d1309495d01))
+* **#124:** upgrade to node 14.17 ([f391687](https://github.com/srodrigo/anime-suupu/commit/f391687786cf3d6f400295c68a2b8567c407fd47)), closes [#124](https://github.com/srodrigo/anime-suupu/issues/124)
+
 ### [0.8.139](https://github.com/srodrigo/anime-suupu/compare/v0.8.138...v0.8.139) (2021-08-24)
 
 

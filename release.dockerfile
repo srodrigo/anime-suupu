@@ -1,4 +1,4 @@
-FROM node:14.7-alpine3.12
+FROM node:14.17-alpine3.12
 
 RUN apk add git && \
   npm install -g heroku && \

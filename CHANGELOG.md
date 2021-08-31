@@ -1,3 +1,11 @@
+## [0.9.2](https://github.com/srodrigo/anime-suupu/compare/v0.9.1...v0.9.2) (2021-08-31)
+
+
+### Bug Fixes
+
+* **#180:** add missing release plugins ([a90dbf1](https://github.com/srodrigo/anime-suupu/commit/a90dbf12c36507db07c178c07426d2a4eee9780e)), closes [#180](https://github.com/srodrigo/anime-suupu/issues/180)
+* **#180:** override release plugins ([06843b5](https://github.com/srodrigo/anime-suupu/commit/06843b5579480145b140ef8408b0f7aba49025ef)), closes [#180](https://github.com/srodrigo/anime-suupu/issues/180)
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.

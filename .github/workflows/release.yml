@@ -25,10 +25,11 @@ jobs:
           ref: "master"
           fetch-depth: "0"
       - name: Prepare release
+        uses: cycjimmy/semantic-release-action@v2
         env:
-          GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
-          GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
-        run: chmod +x prepare-release.sh && ./prepare-release.sh
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
 
   release:
     runs-on: ubuntu-latest

@@ -20,8 +20,6 @@
     "test:integration:ci:run": "start-server-and-test start:ci http://localhost:8011 test:integration:ci",
     "stats:prod": "webpack --config webpack.config.babel.ts --env production --progress --profile --json > prod.stats.json",
     "stats:dev": "webpack --config webpack.config.babel.ts --env dev --progress --profile --json > dev.stats.json",
-    "release": "standard-version",
-    "prepare": "husky install",
     "pre-commit": "npx lint-staged && npm run test",
     "commit-msg": "commitlint --color --edit"
   },

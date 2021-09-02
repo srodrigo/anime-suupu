@@ -88,7 +88,7 @@
     "prettier": "^2.3.2",
     "sass": "^1.39.0",
     "sass-loader": "^12.1.0",
-    "start-server-and-test": "^1.13.0",
+    "start-server-and-test": "^1.14.0",
     "style-loader": "^3.2.1",
     "stylelint": "^13.13.1",
     "stylelint-config-sass-guidelines": "^8.0.0",

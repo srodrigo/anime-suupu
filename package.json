@@ -104,7 +104,7 @@
   "dependencies": {
     "@babel/runtime": "^7.15.3",
     "axios": "^0.21.1",
-    "msw": "^0.33.1",
+    "msw": "^0.35.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-hot-loader": "^4.13.0",

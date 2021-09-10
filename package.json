@@ -86,7 +86,7 @@
     "postcss-loader": "^6.1.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.3.2",
-    "sass": "^1.39.0",
+    "sass": "^1.39.2",
     "sass-loader": "^12.1.0",
     "start-server-and-test": "^1.14.0",
     "style-loader": "^3.2.1",
@@ -103,7 +103,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.15.4",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "msw": "^0.35.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",

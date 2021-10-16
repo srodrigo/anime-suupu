@@ -1,14 +1,8 @@
 {
   "presets": [
-    ["@babel/env", { "targets": "> 0.25%" }],
+    ["@babel/preset-env", { "targets": "> 0.25%, not dead" }],
     "@babel/preset-react",
     ["@babel/preset-typescript", { "allExtensions": true, "isTSX": true }]
   ],
-  "plugins": [
-    "react-hot-loader/babel",
-    "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-syntax-dynamic-import",
-    "@babel/plugin-transform-runtime",
-    "@babel/proposal-object-rest-spread"
-  ]
+  "plugins": ["react-hot-loader/babel", "@babel/plugin-transform-runtime"]
 }

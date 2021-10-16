@@ -5,7 +5,11 @@
     "project": ["tsconfig.json"],
     "sourceType": "module",
     "allowImportExportEverywhere": false,
-    "codeFrame": false
+    "codeFrame": false,
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "extends": [
     "airbnb-typescript",

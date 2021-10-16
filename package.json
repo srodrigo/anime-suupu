@@ -7,7 +7,7 @@
     "start": "NODE_ENV=development webpack serve --env dev --hot --host 0.0.0.0 --port 8010",
     "start:ci": "NODE_ENV=ci webpack serve --env ci --port 8011",
     "build": "NODE_ENV=production webpack --config webpack.config.babel.ts --env production",
-    "lint": "eslint 'src/**/*' -c .eslintrc && stylelint 'src/**/*.{sass,scss,css}' && prettier --check 'src/**/*'",
+    "lint": "tsc && eslint 'src/**/*' -c .eslintrc && stylelint 'src/**/*.{sass,scss,css}' && prettier --check 'src/**/*'",
     "lint:fix": "eslint 'src/**/*' -c .eslintrc --fix && stylelint 'src/**/*.{sass,scss,css}' --fix && prettier --write 'src/**/*'",
     "test": "jest",
     "test:watch": "jest --watchAll",

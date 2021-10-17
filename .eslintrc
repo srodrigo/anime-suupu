@@ -2,7 +2,7 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": ["tsconfig.json"],
+    "project": "tsconfig.json",
     "sourceType": "module",
     "allowImportExportEverywhere": false,
     "codeFrame": false,
@@ -13,29 +13,16 @@
   },
   "extends": [
     "airbnb-typescript",
-    "airbnb/hooks",
-    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:json/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:jsdoc/recommended",
-    "plugin:unicorn/recommended",
     "plugin:testing-library/react",
     "plugin:jest-dom/recommended",
     "prettier"
   ],
-  "plugins": [
-    "react",
-    "prettier",
-    "@typescript-eslint",
-    "jsdoc",
-    "import",
-    "unicorn",
-    "testing-library",
-    "jest-dom"
-  ],
+  "plugins": ["react", "prettier", "@typescript-eslint", "import", "testing-library", "jest-dom"],
   "env": {
     "es6": true,
     "browser": true,
@@ -49,17 +36,6 @@
         "code": 100
       }
     ],
-    "unicorn/filename-case": [
-      "warn",
-      {
-        "cases": {
-          "camelCase": true,
-          "pascalCase": true
-        }
-      }
-    ],
-    "unicorn/no-null": ["off"],
-    "unicorn/no-array-callback-reference": ["off"],
     "prefer-promise-reject-errors": ["off"],
     "react/jsx-filename-extension": ["off"],
     "react/jsx-props-no-spreading": ["off"],

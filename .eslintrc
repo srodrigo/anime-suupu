@@ -20,9 +20,18 @@
     "plugin:import/typescript",
     "plugin:testing-library/react",
     "plugin:jest-dom/recommended",
+    "plugin:jsx-a11y/recommended",
     "prettier"
   ],
-  "plugins": ["react", "prettier", "@typescript-eslint", "import", "testing-library", "jest-dom"],
+  "plugins": [
+    "react",
+    "prettier",
+    "@typescript-eslint",
+    "import",
+    "testing-library",
+    "jest-dom",
+    "jsx-a11y"
+  ],
   "env": {
     "es6": true,
     "browser": true,

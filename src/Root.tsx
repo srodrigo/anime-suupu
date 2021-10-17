@@ -11,5 +11,4 @@ const Root = (): JSX.Element => (
   </div>
 );
 
-// eslint-disable-next-line unicorn/prefer-module
 export default hot(module)(Root);

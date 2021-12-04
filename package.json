@@ -74,7 +74,7 @@
     "postcss": "^8.3.11",
     "postcss-loader": "^6.2.0",
     "postcss-preset-env": "^6.7.0",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.1",
     "sass": "^1.43.3",
     "sass-loader": "^12.2.0",
     "start-server-and-test": "^1.14.0",

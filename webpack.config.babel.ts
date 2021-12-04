@@ -70,11 +70,6 @@ const productionConfig: Configuration = {
 const developmentConfig: Configuration = {
   mode: "development",
   devtool: "inline-source-map",
-  resolve: {
-    alias: {
-      "react-dom": "@hot-loader/react-dom",
-    },
-  },
   module: {
     rules: [
       {

@@ -6,6 +6,7 @@ dist
 .git
 
 .coverage
+.lighthouseci
 cypress/videos
 cypress/screenshots
 

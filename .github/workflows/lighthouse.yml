@@ -1,0 +1,23 @@
+name: "Lighthouse CI"
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lighthouse-ci:
+    name: Lighthouse CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Run Lighthouse
+        run: chmod +x lighthouse.sh && ./lighthouse.sh && zip -r lighthouseci-results.zip .lighthouseci/
+      - name: Archive Lighthouse results
+        uses: actions/upload-artifact@v2
+        with:
+          name: code-coverage-report
+          path: .lighthouseci/

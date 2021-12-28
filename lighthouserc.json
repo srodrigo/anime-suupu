@@ -14,7 +14,6 @@
         "inspector-issues": "off",
         "installable-manifest": "off",
         "maskable-icon": "off",
-        "meta-description": "off",
         "preload-lcp-image": "off",
         "service-worker": "off",
         "splash-screen": "off",

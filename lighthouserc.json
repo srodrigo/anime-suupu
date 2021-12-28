@@ -4,6 +4,26 @@
       "settings": {
         "chromeFlags": "--disable-gpu --no-sandbox"
       }
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "csp-xss": "off",
+        "apple-touch-icon": "off",
+        "errors-in-console": "off",
+        "html-has-lang": "off",
+        "inspector-issues": "off",
+        "installable-manifest": "off",
+        "maskable-icon": "off",
+        "meta-description": "off",
+        "preload-lcp-image": "off",
+        "service-worker": "off",
+        "splash-screen": "off",
+        "themed-omnibox": "off",
+        "unsized-images": "off",
+        "unused-javascript": "off",
+        "uses-rel-preconnect": "off"
+      }
     }
   }
 }

@@ -18,7 +18,6 @@
         "service-worker": "off",
         "splash-screen": "off",
         "themed-omnibox": "off",
-        "unsized-images": "off",
         "unused-javascript": "off"
       }
     }

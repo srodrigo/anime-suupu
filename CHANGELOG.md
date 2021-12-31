@@ -1,3 +1,13 @@
+## [0.9.3](https://github.com/srodrigo/anime-suupu/compare/v0.9.2...v0.9.3) (2021-12-31)
+
+
+### Bug Fixes
+
+* **#137:** lighthouse hml has lang ([91af9f5](https://github.com/srodrigo/anime-suupu/commit/91af9f5ce73d9a1d0b46be4bebe9de74ceea9c60)), closes [#137](https://github.com/srodrigo/anime-suupu/issues/137)
+* **#137:** lighthouse meta description ([64a704e](https://github.com/srodrigo/anime-suupu/commit/64a704e7a53d065d8ec678b3ef7c663dcbc05956)), closes [#137](https://github.com/srodrigo/anime-suupu/issues/137)
+* **#137:** lighthouse preconnect ([053167a](https://github.com/srodrigo/anime-suupu/commit/053167a474c9e570d45c9b301d75a0f59eca6d90)), closes [#137](https://github.com/srodrigo/anime-suupu/issues/137)
+* **#137:** lighthouse unsized images ([c21c9de](https://github.com/srodrigo/anime-suupu/commit/c21c9de015ae0377265304160d1b733d75267125)), closes [#137](https://github.com/srodrigo/anime-suupu/issues/137)
+
 ## [0.9.2](https://github.com/srodrigo/anime-suupu/compare/v0.9.1...v0.9.2) (2021-08-31)
 
 

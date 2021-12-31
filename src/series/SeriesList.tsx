@@ -7,7 +7,7 @@ type SeriesCardProperties = { title: string; imageText: string; imageUrl: string
 const SeriesCard = ({ title, imageText, imageUrl }: SeriesCardProperties): JSX.Element => (
   <article className="series-card">
     <h2 className="title">{title}</h2>
-    <img className="image" alt={imageText} src={imageUrl} />
+    <img className="image" alt={imageText} src={imageUrl} width="100%" height="100%" />
   </article>
 );
 

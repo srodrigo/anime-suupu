@@ -36,6 +36,8 @@ describe("When the trending anime API returns an success response", () => {
       "src",
       "https://media.kitsu.io/anime/poster_images/1/small.jpg?1597604210"
     );
+    expect(firstImage).toHaveAttribute("width", "100%");
+    expect(firstImage).toHaveAttribute("height", "100%");
 
     const secondSeries = seriesItems[1];
     expect(within(secondSeries).getByRole("heading")).toHaveTextContent(
@@ -47,6 +49,8 @@ describe("When the trending anime API returns an success response", () => {
       "src",
       "https://media.kitsu.io/anime/poster_images/2/small.jpg?1597696808"
     );
+    expect(secondImage).toHaveAttribute("width", "100%");
+    expect(secondImage).toHaveAttribute("height", "100%");
 
     expect(screen.queryByRole("alert")).not.toBeInTheDocument();
   });
